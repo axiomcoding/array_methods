@@ -39,7 +39,7 @@
 
 
 
-# define a method, to_array_method, that takes in a range of numbers as an argument
+# define a method, range_to_array, that takes in a range of numbers as an argument
 # return the range of numbers as an array, rather than a range
 # hint: use a method to convert the range to an array
 

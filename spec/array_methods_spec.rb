@@ -48,10 +48,10 @@ describe "#count_method" do
   end
 end
 
-describe "#to_array_method" do 
+describe "#range_to_array" do 
   it "returns the count of the number of items in the cities array" do
     range = (1..10)
-    expect(to_array_method(range)).to eq([1,2,3,4,5,6,7,8,9,10])
+    expect(range_to_array(range)).to eq([1,2,3,4,5,6,7,8,9,10])
   end
 end
 
